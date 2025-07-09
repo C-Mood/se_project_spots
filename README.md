@@ -16,9 +16,11 @@ This is the third project of the Software Engineering program at TripleTen. It w
 - Using the reviewers corrections to improve errors
 
 ## Deployment
-  
+
+- This webpage is deployed to Github Pages
+
 - https://github.com/C-Mood/se_project_spots.git
-  
-## Video Required 
+
+## Video Required
 
 - https://drive.google.com/file/d/1jZzMY3nNYnnDMg0q1GaNwggjCcIvJs0E/view?usp=share_link
