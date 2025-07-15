@@ -19,7 +19,7 @@ This is the third project of the Software Engineering program at TripleTen. It w
 
 - This webpage is deployed to Github Pages
 
-- https://github.com/C-Mood/se_project_spots.git
+- https://c-mood.github.io/se_project_spots/
 
 ## Video Required
 
