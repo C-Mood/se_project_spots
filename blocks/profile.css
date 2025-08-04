@@ -67,8 +67,7 @@
 
 .profile__edit-btn:hover {
   cursor: pointer;
-  color: #212121;
-  opacity: 80%;
+  opacity: 100%;
 }
 
 .profile__add-btn {
@@ -92,7 +91,6 @@
 
 .profile__add-btn:hover {
   cursor: pointer;
-  background-color: #212121;
   opacity: 80%;
 }
 
@@ -109,6 +107,7 @@
     height: 80px;
     width: 80px;
     margin-bottom: 12px;
+    margin-right: 0;
   }
 
   .profile__name {
