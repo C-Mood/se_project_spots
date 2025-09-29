@@ -46,19 +46,21 @@ newPostCloseBtn.addEventListener("click", function () {
   closeModal(newPostModal);
 });
 
-function handleEditProfileSumbit(evt) {
+function handleEditProfileSubmit(evt) {
   evt.preventDefault();
   profileNameEl.textContent = editProfileNameInput.value;
   profileDescriptionEl.textContent = editProfileDescriptionInput.value;
 }
 
-editProfileForm.addEventListener("submit", handleEditProfileSumbit);
+editProfileForm.addEventListener("submit", handleEditProfileSubmit);
 
 function handleNewPostSubmit(evt) {
   evt.preventDefault();
   const imageUrl = newPostInput.value;
   const caption = newPostDescriptionInput.value;
   console.log(imageUrl, caption);
+  closeModal(newPostModal);
 }
 
 newPostForm.addEventListener("submit", handleNewPostSubmit);
+closeModal(newPostModal);

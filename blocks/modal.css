@@ -117,8 +117,7 @@
   }
 
   .modal__container {
-    width: 300px;
-    padding: 12px;
+    padding: 22px 12px 12px;
   }
 
   .modal__input {
@@ -130,8 +129,8 @@
   }
 
   .modal__close-btn {
-    margin-top: 4.49px;
-    margin-left: 4.49px;
+    margin-top: 12px;
+    margin-right: 12px;
   }
 
   .modal__submit-btn {
